@@ -1,0 +1,47 @@
+#Ödev1
+#1-Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
+#******Python2daki Veri Tipleri*******
+string="Python" #yazılan metinsel değerlerin hepsini taşıyan veri tipine denir.
+int=1,2,3,4 #tam sayı değerlerini taşıyan ve bunlarla matematiksel işlem yapılabilen veri tipidir.
+float=1.5,2.6,5.0 #şeklinde ondalıklı sayı dizinini taşıyan ve matematiksel işlem yapılabilen veri tipidir.
+bool=True #Mantıksal ifadeleri destekleyen veri tipidir.
+
+#2-Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+#string="Kurslarım,Tüm Kurslar,Kariyer,Sık Sorulan Sorular"
+#int=Kurs tamamlama yüzdeleri
+
+#3-Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz.
+#Kart bilgilerinin girildiği kısım
+Kartsahibininadisoyadi="Sametcan Sari"
+Kartnumarasi="1234123412341234"
+Sonkullanmatarihi="10/26"
+Cvckodu="111"
+Ülke="Türkiye"
+yenikartad="Sametcan Sari"
+yenkartnumara="1234123412341234"
+yensonkul="10/26"
+yencvc="111"
+yenülke="Türkiye"
+
+if Kartsahibininadisoyadi==yenikartad:
+    print("True")
+elif Kartsahibininadisoyadi!=yenikartad:
+    print("False")
+if Kartnumarasi==yenkartnumara:
+    print("True")
+elif Kartnumarasi!=yenkartnumara:
+    print("False")
+if Sonkullanmatarihi==yensonkul:
+    print("True")
+elif Sonkullanmatarihi!=yensonkul:
+    print("False")
+if Cvckodu==yencvc:
+    print("True")
+elif Cvckodu!=yencvc:
+    print("False")
+if Ülke==yenülke:
+    print("True")
+else: 
+    print("Bilgilerinizi Kontrol Ediniz")
+
+
